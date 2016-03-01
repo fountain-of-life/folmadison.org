@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "normalize", "skeleton";
+
+body{
+  font-family:'Noto Sans',sans-serif;
+}
+.container{
+  padding:2em 0;
+  max-width:800px;
+}
+.logo{
+  text-align:center;
+}
+.logo img{
+  margin:0 auto;
+  max-width:600px;
+}
